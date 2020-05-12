@@ -1,0 +1,11 @@
+version: '3.1'
+//not working properly change this file from docker hub repository
+services:
+  db:
+    image: mysql
+    ports:
+    - 8080:8080
+    environment:
+      - MY_SQL_ROOT_PASSWORD=
+      - MY_SQL_USER=
+      - MY_SQL_DB=rest                            
